@@ -115,7 +115,7 @@ After configuration is completed the `cpp-ethereum.sln` can be found in the
 `build` directory.
 
 ```shell
-cmake .. -G "Visual Studio 14 2015 Win64"
+cmake .. -DCMAKE_GENERATOR_PLATFORM=x64
 ```
 
 ## Contributing
